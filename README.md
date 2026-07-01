@@ -27,8 +27,8 @@ Telemetry: A minimal from-scratch UART driver streams debug and sensor data to a
 Tuning Parameters
 Several constants are exposed at the top of the firmware for on-track calibration, including:
 
-YAW_TRIM_GAIN — proportional gain for yaw-based steering correction
-TURN_DURATION_MS — how long the vehicle stays in turn mode
-SERVO_LEFT / SERVO_CENTER / SERVO_RIGHT — servo PWM endpoints
+YAW_TRIM_GAIN: proportional gain for yaw-based steering correction
+TURN_DURATION_MS: how long the vehicle stays in turn mode
+(SERVO_LEFT, SERVO_CENTER, SERVO_RIGHT): servo PWM endpoints
 Obstacle distance thresholds
 
